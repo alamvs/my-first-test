@@ -1,0 +1,28 @@
+/* পুরো পেজের ব্যাকগ্রাউন্ড এবং ফন্ট সেট করা */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* শিরোনামের ডিজাইন */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* প্যারাগ্রাফের ডিজাইন */
+p {
+    color: #555;
+    font-size: 1.2rem;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
